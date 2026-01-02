@@ -15,6 +15,12 @@
     color: var(--color-a);
 }
 
+.font-s{
+    font-family: "League Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
 
 *{
     font-family: "Questrial", sans-serif;
@@ -26,4 +32,16 @@ body {
   background-color: var(--color-p);
   margin: 0;
   height: 3000px;
+}
+
+/* NAVBAR */
+.scrolledNav{
+    backdrop-filter: blur(7px);
+    border: 2px solid var(--color-a);
+    border-radius: 10px;
+    margin: 30px 30px;
+}
+
+.transition{
+    transition: 1s;
 }
