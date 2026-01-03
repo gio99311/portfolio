@@ -35,7 +35,7 @@ body {
 }
 
 /* NAVBAR */
-.scrolledNav{
+/* .scrolledNav{
     backdrop-filter: blur(7px);
     border: 2px solid var(--color-a);
     border-radius: 10px;
@@ -44,4 +44,33 @@ body {
 
 .transition{
     transition: 1s;
+}
+
+/* NAVBAR 2 */
+.custom-navbar{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    border: solid 2px var(--color-a);
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px var(--color-a);
+}
+.custom-navbar a{
+    color: var(--color-a);
+    font-size: 24px;
+    margin: 10px;
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 767px) {
+    .custom-navbar{
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
 }
