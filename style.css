@@ -1,7 +1,7 @@
 :root{
     --color-p:  #17120b;
     --color-s: #dcdcdc;
-    --color-b: #FF7D00;
+    --color-b: #C73E1D;
 }
 
 .color-p{
@@ -10,9 +10,7 @@
 .color-s{
     color: var(--color-s);
 }
-.color-a{
-    color: var(--color-a);
-}
+
 .color-b{
     color: var(--color-b);
 }
@@ -24,8 +22,10 @@
     font-size: x-large;
 }
 
+
+
 .cust-shadow{
-    text-shadow: 1px 4px 10px var(--color-b);
+    text-shadow: 4px 4px 8px var(--color-b);
 }
 
 *{
@@ -119,3 +119,42 @@ body {
 }
 
 /* FINE HEADER */
+
+/* CONTACTS */
+.cust-contacts {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  writing-mode: vertical-rl;
+  height: 100%;
+
+}
+.cust-contacts a {
+    text-align: center;
+    margin: 10px 0px;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.cust-contacts a:hover{
+    color: var(--color-b);
+    transition: 0.3s ease;
+    border-radius: 50%;
+    padding: 8px;
+
+}
+
+.firma{
+    letter-spacing: 10px;
+    line-height: 0.8;
+    font-size: 30px;
+    /* height: 90%; */
+    font-family: "League Script", cursive;
+    text-align: center;
+    margin: 0px 0px; 
+}
+
+
