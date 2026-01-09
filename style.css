@@ -33,6 +33,9 @@
     font-weight: 400;
     font-style: normal;
     color: var(--color-s);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -132,29 +135,50 @@ body {
   height: 100%;
 
 }
-.cust-contacts a {
+.social-link {
     text-align: center;
     margin: 10px 0px;
     display: block;
     transition: all 0.3s ease;
 
 }
-.cust-contacts a:hover{
+.social-link i:hover{
     color: var(--color-b);
-    transition: 0.3s ease;
-    border-radius: 50%;
-    padding: 8px;
+    transition: 0.3s ease;    
 
 }
 
 .firma{
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
     line-height: 0.8;
     font-size: 30px;
-    /* height: 90%; */
-    font-family: "League Script", cursive;
+    font-family: "League Script", sans-serif;
     text-align: center;
     margin: 0px 0px; 
 }
+
+/* FINE CONTACTS */
+
+/* MY SKILLS SECTION */
+.cust-border{
+    border-bottom: 2px solid var(--color-b);
+    width: 100%;
+    margin: 10px auto;
+}
+
+.progress-bar{
+    background-color: var(--color-b);
+    animation: barra 1s linear forwards;
+    
+}
+@keyframes barra {
+    from{
+        width: 0%;
+    }
+    to{
+        width: var(--width);
+    }
+}
+
 
 
