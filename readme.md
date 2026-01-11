@@ -1,8 +1,7 @@
 ## Colors
---color-p:  #17120b;
-    --color-s: #dcdcdc;
-    --color-a: #D6EFFF;
-    --color-b: #488286;
+primary:  #17120b;
+secondary: #dcdcdc;
+tertiary: #C73E1D;
 
 #FF7D00
 #F44708

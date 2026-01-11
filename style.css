@@ -1,5 +1,6 @@
 :root{
     --color-p:  #17120b;
+    --color-p2:  #221a10;
     --color-s: #dcdcdc;
     --color-b: #C73E1D;
 }
@@ -166,19 +167,32 @@ body {
     margin: 10px auto;
 }
 
-.progress-bar{
-    background-color: var(--color-b);
-    animation: barra 1s linear forwards;
+.circular-bar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(var(--color-b) 1.5deg, var(--color-p2) 0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -22px -21px 83px 7px rgba(199,62,29,0.7) inset;
+}
+.circular-bar::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--color-p);
+    
     
 }
-@keyframes barra {
-    from{
-        width: 0%;
-    }
-    to{
-        width: var(--width);
-    }
+
+.circular-bar img{
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
-
-
 
