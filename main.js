@@ -1,10 +1,6 @@
 // NAVBAR INTERATTIVA
 const navbarLinks = document.querySelectorAll('.nav-link');
-const sections = document.querySelectorAll('#home, #skills');
-
-function interactiveNavbar() {
-    
-}
+const sections = document.querySelectorAll('#home, #skills, #projects');
 
 // Observer per scroll
 const observer = new IntersectionObserver((entries) => {
@@ -63,4 +59,6 @@ const skillsObserver = new IntersectionObserver((entries) => {
 
 skillsObserver.observe(skillsSection);
 
+
+// PROGETTI MODAL
 
