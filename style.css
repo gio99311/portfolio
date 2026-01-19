@@ -374,3 +374,12 @@ input:checked + label .description {
    
 }
 /* FINE PROJECTS SECTION  */
+
+/* FOOTER */
+.cust-footer {
+  background-color: var(--color-b);
+  color: var(--color-s);
+  width: 50%;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+}
