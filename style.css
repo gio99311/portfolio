@@ -42,7 +42,7 @@
 body {
   background-color: var(--color-p);
   margin: 0;
-  height: 3000px;
+  /* height: 3000px; */
 }
 
 /* NAVBAR */
@@ -231,7 +231,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     
 }
 

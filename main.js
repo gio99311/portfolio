@@ -1,6 +1,6 @@
 // NAVBAR INTERATTIVA
 const navbarLinks = document.querySelectorAll('.nav-link');
-const sections = document.querySelectorAll('#home, #skills, #projects');
+const sections = document.querySelectorAll('#home, #skills, #projects, #contacts');
 
 // Observer per scroll
 const observer = new IntersectionObserver((entries) => {
