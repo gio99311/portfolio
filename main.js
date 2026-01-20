@@ -1,6 +1,6 @@
 // NAVBAR INTERATTIVA
 const navbarLinks = document.querySelectorAll('.nav-link');
-const sections = document.querySelectorAll('#home, #skills, #projects, #contacts');
+const sections = document.querySelectorAll('#home, #skills, #projects, #contacts, #aboutMe');
 
 // Observer per scroll
 const observer = new IntersectionObserver((entries) => {
@@ -19,6 +19,22 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.5 });
 
 sections.forEach(section => observer.observe(section));
+
+// HEADER - TYPING EFFECT
+const text = "< Hello World! >";
+const speed = 100;
+let i = 0;
+
+function type() {
+  if (i < text.length) {
+    document.getElementById("text").textContent += text[i];
+    i++;
+    setTimeout(type, speed);
+  }
+}
+
+type();
+
 
 
 // ANIMAZIONE BARRE SKILLS

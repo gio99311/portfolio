@@ -122,6 +122,15 @@ body {
 
 }
 
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
 /* FINE HEADER */
 
 /* CONTACTS */
@@ -375,6 +384,23 @@ input:checked + label .description {
 }
 /* FINE PROJECTS SECTION  */
 
+/* CONTACTS SECTION */
+
+.border-line{
+    border-right: 2px solid var(--color-s);
+    padding-right: 10px;
+    height: 100px;
+    
+}
+
+@media (max-width: 426px) {
+    .border-line{
+        border-right: none;
+        
+    }
+    
+}
+
 /* FOOTER */
 .cust-footer {
   background-color: var(--color-b);
@@ -382,4 +408,16 @@ input:checked + label .description {
   width: 50%;
   margin: auto;
   border-radius: 20px 20px 0px 0px;
+}
+
+@media (max-width: 426px) {
+    .cust-footer{
+        width: 90%;
+    }
+
+    .cust-footer p{
+        font-size: small;
+        
+    }
+    
 }
