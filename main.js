@@ -71,7 +71,7 @@ const skillsObserver = new IntersectionObserver((entries) => {
             animateSkillsBars(); 
         }
     });
-}, { threshold: 0.5 });
+}, { threshold: 0.3 });
 
 skillsObserver.observe(skillsSection);
 

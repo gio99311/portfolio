@@ -45,17 +45,6 @@ body {
   /* height: 3000px; */
 }
 
-/* NAVBAR */
-/* .scrolledNav{
-    backdrop-filter: blur(7px);
-    border: 2px solid var(--color-a);
-    border-radius: 10px;
-    margin: 30px 30px;
-}
-
-.transition{
-    transition: 1s;
-}
 
 /* NAVBAR 2 */
 .custom-navbar{
@@ -77,7 +66,9 @@ body {
     padding: 5px 10px;
     display: block;
     transition: all 0.3s ease;
+    
 }
+
 
 .cust-link{
     background-color: var(--color-b);
@@ -95,7 +86,7 @@ body {
         transform: translate(-50%, 50%);
         
     }
-    
+  
 }
 
 /* HEADER */
